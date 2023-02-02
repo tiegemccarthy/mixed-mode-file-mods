@@ -1,0 +1,73 @@
+*=========================================================================================================
+$FREQ;
+*=========================================================================================================
+    def HB;
+        ** First datastream, X-band, X-pol
+        chan_def = &X : 8204.99 MHz : U : 32.00 MHz : &CH01 : &BBC01 : &U_cal;
+        chan_def = &X : 8244.99 MHz : U : 32.00 MHz : &CH02 : &BBC02 : &U_cal;
+        chan_def = &X : 8344.99 MHz : U : 32.00 MHz : &CH03 : &BBC03 : &U_cal;
+        chan_def = &X : 8504.99 MHz : U : 32.00 MHz : &CH04 : &BBC04 : &U_cal;
+        chan_def = &X : 8724.99 MHz : U : 32.00 MHz : &CH05 : &BBC05 : &U_cal;
+        chan_def = &X : 8844.99 MHz : U : 32.00 MHz : &CH06 : &BBC06 : &U_cal;
+        chan_def = &X : 8884.99 MHz : U : 32.00 MHz : &CH07 : &BBC07 : &U_cal;
+        chan_def = &X : 8924.99 MHz : U : 32.00 MHz : &CH08 : &BBC08 : &U_cal;
+        ** Second datastream, X-band, Y-pol
+        chan_def = &X : 8204.99 MHz : U : 32.00 MHz : &CH09 : &BBC09 : &U_cal;
+        chan_def = &X : 8244.99 MHz : U : 32.00 MHz : &CH10 : &BBC10 : &U_cal;
+        chan_def = &X : 8344.99 MHz : U : 32.00 MHz : &CH11 : &BBC11 : &U_cal;
+        chan_def = &X : 8504.99 MHz : U : 32.00 MHz : &CH12 : &BBC12 : &U_cal;
+        chan_def = &X : 8724.99 MHz : U : 32.00 MHz : &CH13 : &BBC13 : &U_cal;
+        chan_def = &X : 8844.99 MHz : U : 32.00 MHz : &CH14 : &BBC14 : &U_cal;
+        chan_def = &X : 8884.99 MHz : U : 32.00 MHz : &CH15 : &BBC15 : &U_cal;
+        chan_def = &X : 8924.99 MHz : U : 32.00 MHz : &CH16 : &BBC16 : &U_cal;
+        ** Third datastream, S-band, X and Y pol
+        chan_def = &X : 2200.99 MHz : U : 32.00 MHz : &CH17 : &BBC17 : &U_cal;
+        chan_def = &X : 2232.99 MHz : U : 32.00 MHz : &CH18 : &BBC18 : &U_cal;
+        chan_def = &X : 2264.99 MHz : U : 32.00 MHz : &CH19 : &BBC19 : &U_cal;
+        chan_def = &X : 3248.99 MHz : U : 32.00 MHz : &CH20 : &BBC20 : &U_cal;
+        chan_def = &X : 2200.99 MHz : U : 32.00 MHz : &CH21 : &BBC21 : &U_cal;
+        chan_def = &X : 2232.99 MHz : U : 32.00 MHz : &CH22 : &BBC22 : &U_cal;
+        chan_def = &X : 2264.99 MHz : U : 32.00 MHz : &CH23 : &BBC23 : &U_cal;
+        chan_def = &X : 3248.99 MHz : U : 32.00 MHz : &CH24 : &BBC24 : &U_cal;
+        sample_rate =  64.0 Ms/sec;
+    enddef;
+
+    def KE;
+        ** First datastream, X-band, X-pol
+        chan_def = &X : 8204.99 MHz : U : 32.00 MHz : &CH01 : &BBC01 : &U_cal;
+        chan_def = &X : 8244.99 MHz : U : 32.00 MHz : &CH02 : &BBC01 : &U_cal;
+        chan_def = &X : 8344.99 MHz : U : 32.00 MHz : &CH03 : &BBC01 : &U_cal;
+        chan_def = &X : 8504.99 MHz : U : 32.00 MHz : &CH04 : &BBC01 : &U_cal;
+        chan_def = &X : 8724.99 MHz : U : 32.00 MHz : &CH05 : &BBC01 : &U_cal;
+        chan_def = &X : 8844.99 MHz : U : 32.00 MHz : &CH06 : &BBC01 : &U_cal;
+        chan_def = &X : 8884.99 MHz : U : 32.00 MHz : &CH07 : &BBC01 : &U_cal;
+        chan_def = &X : 8924.99 MHz : U : 32.00 MHz : &CH08 : &BBC01 : &U_cal;
+        ** Second datastream, X-band, Y-pol
+        chan_def = &X : 8204.99 MHz : U : 32.00 MHz : &CH09 : &BBC02 : &U_cal;
+        chan_def = &X : 8244.99 MHz : U : 32.00 MHz : &CH10 : &BBC02 : &U_cal;
+        chan_def = &X : 8344.99 MHz : U : 32.00 MHz : &CH11 : &BBC02 : &U_cal;
+        chan_def = &X : 8504.99 MHz : U : 32.00 MHz : &CH12 : &BBC02 : &U_cal;
+        chan_def = &X : 8724.99 MHz : U : 32.00 MHz : &CH13 : &BBC02 : &U_cal;
+        chan_def = &X : 8844.99 MHz : U : 32.00 MHz : &CH14 : &BBC02 : &U_cal;
+        chan_def = &X : 8884.99 MHz : U : 32.00 MHz : &CH15 : &BBC02 : &U_cal;
+        chan_def = &X : 8924.99 MHz : U : 32.00 MHz : &CH16 : &BBC02 : &U_cal;
+        ** Third datastream, S-band, X-pol
+        chan_def = &S : 2200.99 MHz : U : 32.00 MHz : &CH17 : &BBC01 : &U_cal;
+        chan_def = &S : 2232.99 MHz : U : 32.00 MHz : &CH18 : &BBC01 : &U_cal;
+        chan_def = &S : 2264.99 MHz : U : 32.00 MHz : &CH19 : &BBC01 : &U_cal;
+        chan_def = &S : 3248.99 MHz : U : 32.00 MHz : &CH20 : &BBC01 : &U_cal;
+        chan_def = &S : 2200.99 MHz : U : 32.00 MHz : &CH21 : &BBC01 : &U_cal;
+        chan_def = &S : 2232.99 MHz : U : 32.00 MHz : &CH22 : &BBC01 : &U_cal;
+        chan_def = &S : 2264.99 MHz : U : 32.00 MHz : &CH23 : &BBC01 : &U_cal;
+        chan_def = &S : 3248.99 MHz : U : 32.00 MHz : &CH24 : &BBC01 : &U_cal;
+        ** Forth datastream, S-band, Y-pol
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH25 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH26 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH27 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH28 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH29 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH30 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH31 : &BBC02 : &U_cal;
+        chan_def = &S : 0.00 MHz : U : 0.00 MHz : &CH32 : &BBC02 : &U_cal;
+        sample_rate =  32.0 Ms/sec;
+    enddef;

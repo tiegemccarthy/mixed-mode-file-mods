@@ -1,0 +1,28 @@
+*=========================================================================================================
+$MODE;
+*=========================================================================================================
+    def 1024-16(SI);
+        ref $FREQ =             GEOSX_SI           : Ht : Ho : Yg ;
+        ref $FREQ =             GEOSX_SI_VDIF                          : Ww      ;
+        ref $FREQ =             HB            : Hb ;
+        ref $FREQ =             KE            : Ke ;
+        ref $BBC =              DBBC_26                      : Ho                ;
+        ref $BBC =              DBBC_AU       : Yg ;
+        ref $BBC =              HB            : Hb ;
+        ref $BBC =              KE            : Ke ;
+        ref $BBC =              DBBC_HT       : Ht                               ;
+        ref $IF =               DBBC_26                      : Ho                ;
+        ref $IF =               DBBC_AU       : Yg ;
+        ref $IF =               DBBC_WW                                : Ww      ;
+        ref $IF =               HB            : Hb : Ke ;
+        ref $IF =               DBBC_HT       : Ht           ;
+        ref $TRACKS =           HB            : Hb : Ke : Ww ;
+        ref $TRACKS =           HT            : Ht      ;
+        ref $TRACKS =           14U2L-1-2-B        : Yg ;
+        ref $TRACKS =           AUST1GBPS                    : Ho                ;
+        ref $TRACKS =           Mark5B_format      : Ho : Yg ;
+        ref $TRACKS =           VDIF/8032/2_format : Ww      ;
+        ref $PASS_ORDER =       passOrder          : Ht : Hb : Ho : Ke : Ww : Yg ;
+        ref $ROLL =             NO_ROLL            : Ht : Hb : Ho : Ke : Ww : Yg ;
+        ref $PHASE_CAL_DETECT = Standard           : Ht : Hb : Ho : Ke : Ww : Yg ;
+    enddef;

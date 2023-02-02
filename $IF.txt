@@ -1,0 +1,20 @@
+*=========================================================================================================
+$IF;
+*=========================================================================================================
+    def HB;
+      if_def = &IF_A1 : A1 : X :  6000.0 MHz : U : 5 MHz : 0 Hz;
+      if_def = &IF_B1 : B1 : Y :  6000.0 MHz : U : 5 MHz : 0 Hz;
+      if_def = &IF_C1 : C1 : X :  1900.0 MHz : U : 5 MHz : 0 Hz;
+      if_def = &IF_D1 : D1 : Y :  1900.0 MHz : U : 5 MHz : 0 Hz;
+    enddef;
+*
+    def DBBC_HT;
+*   1024-16(SI) : Ht;
+*                  IF   Physical Pol    Total      Net     Phase-cal   P-cal base
+*                  ID     Name            IO        SB   freq spacing     freq
+        if_def = &IF_A1 :   A1 :  R : 7600.00 MHz :  U :    1.00 MHz :    0.00 Hz;
+        if_def = &IF_B1 :   B1 :  R : 7600.00 MHz :  U :    1.00 MHz :    0.00 Hz;
+        if_def = &IF_C1 :   C1 :  R : 1900.00 MHz :  U :    1.00 MHz :    0.00 Hz;
+        if_def = &IF_D1 :   D1 :  R : 1900.00 MHz :  U :    1.00 MHz :    0.00 Hz;
+    enddef;
+*
